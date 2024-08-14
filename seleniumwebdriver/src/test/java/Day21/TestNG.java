@@ -10,21 +10,7 @@ import org.testng.annotations.Test;
 
 public class TestNG {
 	
-//@BeforeMethod
-	//@BeforeClass
-	//@BeforeTest
-	//void beforemethod()
-	//{
-		//System.out.println("beforetest");
-//	}
-	@AfterMethod
-	//@AfterClass
-	//@AfterTest
-	//void after()
-	//{
-		//System.out.println("aftertest");
-	//}
-@Test(priority=1)
+	@Test(priority=1)
 	
 	void open()
 	{

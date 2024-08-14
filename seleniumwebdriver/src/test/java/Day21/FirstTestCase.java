@@ -43,13 +43,13 @@ public class FirstTestCase {
 		
 		driver.findElement(By.name("search")).sendKeys("mac");
 		
-		FileInputStream file=new FileInputStream("C:\\EWorkspace\\seleniumwebdriver\\testdata\\selenium.xlsx");
-		XSSFWorkbook workbook=new XSSFWorkbook(file);
-		XSSFSheet sheet=workbook.getSheet("Sheet1");
-		XSSFRow currentrow=sheet.getRow(0);
-		XSSFCell cell=currentrow.getCell(0);
+	//	FileInputStream file=new FileInputStream("C:\\EWorkspace\\seleniumwebdriver\\testdata\\selenium.xlsx");
+		//XSSFWorkbook workbook=new XSSFWorkbook(file);
+		//XSSFSheet sheet=workbook.getSheet("Sheet1");
+		//XSSFRow currentrow=sheet.getRow(0);
+		//XSSFCell cell=currentrow.getCell(0);
 			
-		driver.findElement(By.name("search")).sendKeys(cell.toString());
+		//driver.findElement(By.name("search")).sendKeys(cell.toString());
 		
 		
 		//Sleep(10000);
